@@ -24,7 +24,7 @@ enum DeepSeekError: Error, LocalizedError {
 }
 
 struct DeepSeekService {
-    private static let apiKey = "sk-d1fb8f646b734893aa407e42de2f45da"
+    private static let apiKey = "sk-7f710d53f009458b885581618f498846"
     private static let baseURL = "https://api.deepseek.com/v1/chat/completions"
     private static let model = "deepseek-v4-flash"
 
