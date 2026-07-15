@@ -6,30 +6,74 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A0040001 /* PawzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030001 /* PawzyApp.swift */; };
+		A0040002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030002 /* ContentView.swift */; };
+		A0040003 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030003 /* MainTabView.swift */; };
+		A0040004 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030004 /* Pet.swift */; };
+		A0040005 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030005 /* Medication.swift */; };
+		A0040006 /* MedicationCabinetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030006 /* MedicationCabinetItem.swift */; };
+		A0040007 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030007 /* ChatMessage.swift */; };
+		A0040008 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030008 /* DashboardView.swift */; };
+		A0040009 /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030009 /* ProgressRingView.swift */; };
+		A0040010 /* PetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030010 /* PetsListView.swift */; };
+		A0040011 /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030011 /* PetDetailView.swift */; };
+		A0040012 /* AddPetSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030012 /* AddPetSheetView.swift */; };
+		A0040013 /* CabinetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030013 /* CabinetView.swift */; };
+		A0040014 /* AddMedicationSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030014 /* AddMedicationSheetView.swift */; };
+		A0040015 /* AIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030015 /* AIView.swift */; };
+		A0040016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030016 /* SettingsView.swift */; };
+		A0040017 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030017 /* OnboardingView.swift */; };
+		A0040018 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030018 /* PaywallView.swift */; };
+		A0040019 /* PawzyIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030019 /* PawzyIAPManager.swift */; };
+		A0040021 /* DeepSeekService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030021 /* DeepSeekService.swift */; };
+		A0040022 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030022 /* NotificationManager.swift */; };
+		A0040023 /* BackupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030023 /* BackupManager.swift */; };
+		A0040024 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030024 /* ImagePickerView.swift */; };
+		A0040025 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030025 /* DesignSystem.swift */; };
+		A0040026 /* PreviewCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030026 /* PreviewCatalog.swift */; };
+		A0040027 /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0030027 /* PlaceholderViews.swift */; };
+		A0040028 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0030028 /* Info.plist */; };
+		A0040030 /* Pawzy.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = A0030030 /* Pawzy.entitlements */; };
+		A0040031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0030031 /* Assets.xcassets */; };
+		A0040032 /* Localizable.strings (tr) in Resources */ = {isa = PBXBuildFile; fileRef = A0030032 /* Localizable.strings (tr) */; };
+		A0040033 /* Localizable.strings (en) in Resources */ = {isa = PBXBuildFile; fileRef = A0030033 /* Localizable.strings (en) */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CF1E84E32FF19AF300E6604B /* Pawzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0030001 /* PawzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawzyApp.swift; sourceTree = "<group>"; };
+		A0030002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0030003 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A0030004 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		A0030005 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		A0030006 /* MedicationCabinetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationCabinetItem.swift; sourceTree = "<group>"; };
+		A0030007 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		A0030008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A0030009 /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingView.swift; sourceTree = "<group>"; };
+		A0030010 /* PetsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListView.swift; sourceTree = "<group>"; };
+		A0030011 /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		A0030012 /* AddPetSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetSheetView.swift; sourceTree = "<group>"; };
+		A0030013 /* CabinetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinetView.swift; sourceTree = "<group>"; };
+		A0030014 /* AddMedicationSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationSheetView.swift; sourceTree = "<group>"; };
+		A0030015 /* AIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIView.swift; sourceTree = "<group>"; };
+		A0030016 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A0030017 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A0030018 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A0030019 /* PawzyIAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawzyIAPManager.swift; sourceTree = "<group>"; };
+		A0030021 /* DeepSeekService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSeekService.swift; sourceTree = "<group>"; };
+		A0030022 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A0030023 /* BackupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupManager.swift; sourceTree = "<group>"; };
+		A0030024 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A0030025 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		A0030026 /* PreviewCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCatalog.swift; sourceTree = "<group>"; };
+		A0030027 /* PlaceholderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViews.swift; sourceTree = "<group>"; };
+		A0030028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0030030 /* Pawzy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pawzy.entitlements; sourceTree = "<group>"; };
+		A0030031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0030032 /* Localizable.strings (tr) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "tr.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A0030033 /* Localizable.strings (en) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "en.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CF1E84F02FF19AF400E6604B /* Exceptions for "Pawzy" folder in "Pawzy" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CF1E84E22FF19AF300E6604B /* Pawzy */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		CF1E84E52FF19AF300E6604B /* Pawzy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CF1E84F02FF19AF400E6604B /* Exceptions for "Pawzy" folder in "Pawzy" target */,
-			);
-			path = Pawzy;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CF1E84E02FF19AF300E6604B /* Frameworks */ = {
@@ -45,7 +89,7 @@
 		CF1E84DA2FF19AF300E6604B = {
 			isa = PBXGroup;
 			children = (
-				CF1E84E52FF19AF300E6604B /* Pawzy */,
+				A0010001 /* Pawzy */,
 				CF1E84E42FF19AF300E6604B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +100,148 @@
 				CF1E84E32FF19AF300E6604B /* Pawzy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A0010001 /* Pawzy */ = {
+			isa = PBXGroup;
+			children = (
+				A0020001 /* App */,
+				A0020002 /* Models */,
+				A0020003 /* Views */,
+				A0020011 /* Services */,
+				A0020012 /* DesignSystem */,
+				A0020013 /* Resources */,
+			);
+			path = Pawzy;
+			sourceTree = "<group>";
+		};
+		A0020001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A0030001 /* PawzyApp.swift */,
+				A0030002 /* ContentView.swift */,
+				A0030003 /* MainTabView.swift */,
+				A0030027 /* PlaceholderViews.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		A0020002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0030004 /* Pet.swift */,
+				A0030005 /* Medication.swift */,
+				A0030006 /* MedicationCabinetItem.swift */,
+				A0030007 /* ChatMessage.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A0020003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0020004 /* Dashboard */,
+				A0020005 /* Pets */,
+				A0020006 /* Cabinet */,
+				A0020007 /* AI */,
+				A0020008 /* Settings */,
+				A0020009 /* Onboarding */,
+				A0020010 /* Paywall */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A0020004 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0030008 /* DashboardView.swift */,
+				A0030009 /* ProgressRingView.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		A0020005 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				A0030010 /* PetsListView.swift */,
+				A0030011 /* PetDetailView.swift */,
+				A0030012 /* AddPetSheetView.swift */,
+			);
+			name = Pets;
+			sourceTree = "<group>";
+		};
+		A0020006 /* Cabinet */ = {
+			isa = PBXGroup;
+			children = (
+				A0030013 /* CabinetView.swift */,
+				A0030014 /* AddMedicationSheetView.swift */,
+			);
+			name = Cabinet;
+			sourceTree = "<group>";
+		};
+		A0020007 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				A0030015 /* AIView.swift */,
+			);
+			name = AI;
+			sourceTree = "<group>";
+		};
+		A0020008 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A0030016 /* SettingsView.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A0020009 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A0030017 /* OnboardingView.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		A0020010 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				A0030018 /* PaywallView.swift */,
+			);
+			name = Paywall;
+			sourceTree = "<group>";
+		};
+		A0020011 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A0030019 /* PawzyIAPManager.swift */,
+				A0030021 /* DeepSeekService.swift */,
+				A0030022 /* NotificationManager.swift */,
+				A0030023 /* BackupManager.swift */,
+				A0030024 /* ImagePickerView.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A0020012 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A0030025 /* DesignSystem.swift */,
+				A0030026 /* PreviewCatalog.swift */,
+			);
+			name = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A0020013 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0030031 /* Assets.xcassets */,
+				A0030032 /* Localizable.strings (tr) */,
+				A0030033 /* Localizable.strings (en) */,
+				A0030028 /* Info.plist */,
+				A0030030 /* Pawzy.entitlements */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +258,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CF1E84E52FF19AF300E6604B /* Pawzy */,
 			);
 			name = Pawzy;
 			packageProductDependencies = (
@@ -104,6 +287,16 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
+				"zh-Hans",
+				ar,
+				ku,
+				it,
+				"pt-BR",
+				fr,
+				de,
+				ja,
+				es,
 			);
 			mainGroup = CF1E84DA2FF19AF300E6604B;
 			minimizedProjectReferenceProxies = 1;
@@ -122,6 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0040031 /* Assets.xcassets in Resources */,
+				A0040032 /* Localizable.strings (tr) in Resources */,
+				A0040033 /* Localizable.strings (en) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +328,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0040001 /* PawzyApp.swift in Sources */,
+				A0040002 /* ContentView.swift in Sources */,
+				A0040003 /* MainTabView.swift in Sources */,
+				A0040004 /* Pet.swift in Sources */,
+				A0040005 /* Medication.swift in Sources */,
+				A0040006 /* MedicationCabinetItem.swift in Sources */,
+				A0040007 /* ChatMessage.swift in Sources */,
+				A0040008 /* DashboardView.swift in Sources */,
+				A0040009 /* ProgressRingView.swift in Sources */,
+				A0040010 /* PetsListView.swift in Sources */,
+				A0040011 /* PetDetailView.swift in Sources */,
+				A0040012 /* AddPetSheetView.swift in Sources */,
+				A0040013 /* CabinetView.swift in Sources */,
+				A0040014 /* AddMedicationSheetView.swift in Sources */,
+				A0040015 /* AIView.swift in Sources */,
+				A0040016 /* SettingsView.swift in Sources */,
+				A0040017 /* OnboardingView.swift in Sources */,
+				A0040018 /* PaywallView.swift in Sources */,
+				A0040019 /* PawzyIAPManager.swift in Sources */,
+				A0040021 /* DeepSeekService.swift in Sources */,
+				A0040022 /* NotificationManager.swift in Sources */,
+				A0040023 /* BackupManager.swift in Sources */,
+				A0040024 /* ImagePickerView.swift in Sources */,
+				A0040025 /* DesignSystem.swift in Sources */,
+				A0040026 /* PreviewCatalog.swift in Sources */,
+				A0040027 /* PlaceholderViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,16 +372,18 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pawzy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 28.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gazihan.Pawzy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -184,16 +408,18 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pawzy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 28.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gazihan.Pawzy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

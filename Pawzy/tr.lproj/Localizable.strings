@@ -1,0 +1,462 @@
+/* Turkish Localization — Default language fallback */
+/* Keys match the English file for completeness */
+
+/* ---- Common ---- */
+"Devam" = "Devam";
+"Sürdür" = "Sürdür";
+"Başla" = "Başla";
+"Atla" = "Atla";
+"İptal" = "İptal";
+"Kaydet" = "Kaydet";
+"Ekle" = "Ekle";
+"Kapat" = "Kapat";
+"Tamam" = "Tamam";
+"Sil" = "Sil";
+"Açık" = "Açık";
+"Kapalı" = "Kapalı";
+"tamamlandı" = "tamamlandı";
+"tamamlanmadı" = "tamamlanmadı";
+"Tamamlandı olarak işaretli" = "Tamamlandı olarak işaretli";
+"Tamamlanmadı" = "Tamamlanmadı";
+"seçilmedi" = "seçilmedi";
+"hiçbiri" = "hiçbiri";
+
+/* ---- Tab Bar (MainTabView) ---- */
+"Bugün" = "Bugün";
+"Patilerim" = "Patilerim";
+"Dolap" = "Dolap";
+"Ayarlar" = "Ayarlar";
+
+/* ---- DashboardView ---- */
+"Bugünün dozları" = "Bugünün dozları";
+"ZAMAN TÜNELİ" = "ZAMAN TÜNELİ";
+"Henüz hatırlatıcı yok" = "Henüz hatırlatıcı yok";
+"Bugün için hatırlatıcı yok" = "Bugün için hatırlatıcı yok";
+"Yeni Hatırlatıcı Ekle" = "Yeni Hatırlatıcı Ekle";
+"Yeni hatırlatıcı ekle" = "Yeni hatırlatıcı ekle";
+"İlaç hatırlatıcı ekleme formunu açar" = "İlaç hatırlatıcı ekleme formunu açar";
+"İlaç Ekle" = "İlaç Ekle";
+"Kamera" = "Kamera";
+"Galeri" = "Galeri";
+"Fotoğrafı büyüt" = "Fotoğrafı büyüt";
+"Tamamlandı olarak işaretlemek için çift dokunun" = "Tamamlandı olarak işaretlemek için çift dokunun";
+"doz tamamlandı · harika gidiyorsun" = "doz tamamlandı · harika gidiyorsun";
+"Pzt" = "Pzt";
+"Sal" = "Sal";
+"Çar" = "Çar";
+"Per" = "Per";
+"Cum" = "Cum";
+"Cmt" = "Cmt";
+"Paz" = "Paz";
+
+/* ---- PetsListView ---- */
+"sevimli dostun" = "sevimli dostun";
+"Yeni Pati Ekle" = "Yeni Pati Ekle";
+"Yeni pati ekle" = "Yeni pati ekle";
+"Henüz pati yok" = "Henüz pati yok";
+"İlk evcil hayvanını ekleyerek başla" = "İlk evcil hayvanını ekleyerek başla";
+"Premium'a yükselterek daha fazla pati ekle" = "Premium'a yükselterek daha fazla pati ekle";
+"Evcil hayvan ekleme formunu açar" = "Evcil hayvan ekleme formunu açar";
+"yaş" = "yaş";
+"yaşında" = "yaşında";
+"kilogram" = "kilogram";
+"detaylarına gitmek için çift dokunun" = "detaylarına gitmek için çift dokunun";
+
+/* ---- CabinetView ---- */
+"İlaç Dolabı" = "İlaç Dolabı";
+"Yeni ilaç ekle" = "Yeni ilaç ekle";
+"İlaç dolabına yeni ilaç ekleme formunu açar" = "İlaç dolabına yeni ilaç ekleme formunu açar";
+"Tümü" = "Tümü";
+"Aşı" = "Aşı";
+"Tablet" = "Tablet";
+"Damla" = "Damla";
+"Merhem" = "Merhem";
+"Stok" = "Stok";
+"az kaldı" = "az kaldı";
+"Bu kategoride ilaç yok" = "Bu kategoride ilaç yok";
+"adet" = "adet";
+"şişe" = "şişe";
+"ürün · stok azalıyor" = "%d ürün · %d stok azalıyor";
+" kategorisi" = " kategorisi";
+"Stok etiketi" = "Stok etiketi";
+"Son doz" = "Son doz";
+
+/* ---- AddPetSheetView ---- */
+"Yeni Pati" = "Yeni Pati";
+"Pati Düzenle" = "Pati Düzenle";
+"Fotoğraf Ekle" = "Fotoğraf Ekle";
+"Fotoğraf ekle" = "Fotoğraf ekle";
+"Profil fotoğrafı eklemek için dokunun" = "Profil fotoğrafı eklemek için dokunun";
+"İsim" = "İsim";
+"Örn. Pamuk" = "Örn. Pamuk";
+"Tür" = "Tür";
+"Kedi" = "Kedi";
+"Köpek" = "Köpek";
+"Kuş" = "Kuş";
+"Diğer" = "Diğer";
+"Cins" = "Cins";
+"Örn. British Shorthair" = "Örn. British Shorthair";
+"Patinizin cinsini girin" = "Patinizin cinsini girin";
+"Doğum Tarihi" = "Doğum Tarihi";
+"Kilo" = "Kilo";
+"kg" = "kg";
+"Cinsiyet" = "Cinsiyet";
+"Dişi" = "Dişi";
+"Erkek" = "Erkek";
+"Gerekli alanları doldurun" = "Gerekli alanları doldurun";
+"Pati eklemeyi iptal eder" = "Pati eklemeyi iptal eder";
+"Yeni patiyi kaydeder" = "Yeni patiyi kaydeder";
+"Patinizin adını girin" = "Patinizin adını girin";
+
+/* ---- AddMedicationSheetView ---- */
+"Yeni Hatırlatıcı" = "Yeni Hatırlatıcı";
+"Hatırlatıcı eklemeyi iptal eder" = "Hatırlatıcı eklemeyi iptal eder";
+"Yeni hatırlatıcıyı ekler" = "Yeni hatırlatıcıyı ekler";
+"İlaç Adı" = "İlaç Adı";
+"İlaç adı" = "İlaç adı";
+"İlacın adını girin" = "İlacın adını girin";
+"Örn. Bravecto" = "Örn. Bravecto";
+"HANGİ PATİ" = "HANGİ PATİ";
+"Seçilmedi" = "Seçilmedi";
+"Henüz pati eklenmemiş" = "Henüz pati eklenmemiş";
+"KATEGORİ" = "KATEGORİ";
+"Dozaj" = "Dozaj";
+"1 tablet" = "1 tablet";
+"Dozaj miktarını girin, örn. 1 tablet" = "Dozaj miktarını girin, örn. 1 tablet";
+"SIKLIK" = "SIKLIK";
+"Her gün" = "Her gün";
+"12 saatte" = "12 saatte";
+"Haftalık" = "Haftalık";
+"HATIRLATMA SAATİ" = "HATIRLATMA SAATİ";
+"Özel saat ekle" = "Özel saat ekle";
+"Saati onayla" = "Saati onayla";
+"Özel saat" = "Özel saat";
+"Kendi hatırlatma saatinizi seçmek için dokunun" = "Kendi hatırlatma saatinizi seçmek için dokunun";
+
+/* ---- PetDetailView ---- */
+"Yaş" = "Yaş";
+"Kilo" = "Kilo";
+"Cinsiyet" = "Cinsiyet";
+"İlaçları" = "İlaçları";
+"Henüz ilaç eklenmemiş" = "Henüz ilaç eklenmemiş";
+"Detaylı sağlık raporları için Premium'a yükselt" = "Detaylı sağlık raporları için Premium'a yükselt";
+"Yükselt" = "Yükselt";
+"Premium'da kullanılabilir" = "Premium'da kullanılabilir";
+"Düzenle" = "Düzenle";
+
+/* ---- SettingsView ---- */
+"Pawzy Premium" = "Pawzy Premium";
+"Sınırsız pati, akıllı hatırlatıcılar." = "Sınırsız pati, akıllı hatırlatıcılar.";
+"BİLDİRİMLER" = "BİLDİRİMLER";
+"Hatırlatıcılar" = "Hatırlatıcılar";
+"İlaç saatlerinde bildir" = "İlaç saatlerinde bildir";
+"Sesli Uyarı" = "Sesli Uyarı";
+"Bildirim sesi çal" = "Bildirim sesi çal";
+"Rozet Sayacı" = "Rozet Sayacı";
+"Simgede bekleyen doz" = "Simgede bekleyen doz";
+"VERİ & GİZLİLİK" = "VERİ & GİZLİLİK";
+"HAKKINDA" = "HAKKINDA";
+"Sürüm" = "Sürüm";
+"Pawzy'i Değerlendir" = "Pawzy'i Değerlendir";
+"Kullanım Koşulları" = "Kullanım Koşulları";
+"Gizlilik Politikası" = "Gizlilik Politikası";
+"Verileri Dışa Aktar" = "Verileri Dışa Aktar";
+"Dil / Language" = "Dil / Language";
+"Dil Değişikliği" = "Dil Değişikliği";
+"Değişiklik için uygulamayı yeniden başlatın." = "Değişiklik için uygulamayı yeniden başlatın.";
+"Açmak veya kapatmak için çift dokunun" = "Açmak veya kapatmak için çift dokunun";
+"Ayrıntıları görüntülemek için çift dokunun" = "Ayrıntıları görüntülemek için çift dokunun";
+"Dil seçimi ekranını açar" = "Dil seçimi ekranını açar";
+"Görünüm" = "Görünüm";
+"Sistem" = "Sistem";
+"Aydınlık" = "Açık";
+"Karanlık" = "Koyu";
+"Yükselt, Pawzy Premium'a geç" = "Yükselt, Pawzy Premium'a geç";
+"Premium üyeliğin aktif. Desteklediğin için teşekkürler!" = "Premium üyeliğin aktif. Desteklediğin için teşekkürler!";
+
+
+/* ---- OnboardingView (Apple Health stili) ---- */
+"onboarding_welcome_title" = "Pawzy'e Hoş Geldin";
+"onboarding_welcome_body" = "Evcil dostunun ilaç takibini ve sağlık danışmanlığını tek bir uygulamada birleştir.";
+"onboarding_notify_title" = "Hiçbir Dozu Kaçırma";
+"onboarding_notify_body" = "Akıllı hatırlatıcılar sayesinde ilaç saatlerini takip et, bildirimlerle dostunun sağlığını koru.";
+"onboarding_ready_title" = "Her Şey Hazır";
+"onboarding_ready_body" = "Hemen ilk patini ekleyip ilaç takibine başlayabilirsin. Dostunun sağlığı senin elinde.";
+"onboarding_continue" = "Devam";
+"onboarding_skip" = "Atla";
+"onboarding_pet_title" = "Pati'ni Tanıyalım";
+"onboarding_pet_body" = "İsmini yaz, bir fotoğraf ekle. Gerisini biz hallederiz.";
+"onboarding_pet_name_label" = "Pati Adı";
+"onboarding_pet_name_placeholder" = "Örn. Pamuk";
+"onboarding_med_title" = "İlk Hatırlatıcını Kur";
+"onboarding_med_body" = "Bir dakikadan kısa sürede. Dostunun sağlığı için ilk adım.";
+"onboarding_med_name_label" = "İlaç Adı";
+"onboarding_med_name_placeholder" = "Örn. Vitamin, Aşı...";
+"onboarding_med_time_label" = "Zaman";
+"onboarding_med_repeat_label" = "Tekrar";
+"onboarding_med_repeat_daily" = "Her gün";
+"onboarding_med_repeat_weekly" = "Haftada bir";
+"onboarding_med_repeat_monthly" = "Ayda bir";
+"onboarding_med_save" = "Hatırlatıcıyı Kaydet";
+"onboarding_med_saved_title" = "Hatırlatıcı Kuruldu!";
+"zorunlu_alan" = "zorunlu alan";
+"Onboarding'i atlayıp ana ekrana geçer" = "Onboarding'i atlayıp ana ekrana geçer";
+"onboarding_page_indicator" = "Sayfa %d / 3";
+"onboarding_med_preview_label" = "İlaç önizlemesi: %@, %@, %@";
+"onboarding_time_decrease_15" = "15 dakika azalt";
+"onboarding_time_increase_15" = "15 dakika artır";
+"onboarding_time_accessibility" = "Zaman, %@";
+
+/* ---- Eski onboarding (kaldırılacak, şimdilik duruyor) ---- */
+"Pawzy'e Hoş Geldin" = "Pawzy'e Hoş Geldin";
+"Evcil dostlarının ilaç takibini hiç olmadığı kadar kolaylaştır." = "Evcil dostlarının ilaç takibini hiç olmadığı kadar kolaylaştır.";
+"Akıllı Hatırlatıcılar" = "Akıllı Hatırlatıcılar";
+"İlaç saatlerini asla kaçırma. Bildirimlerle dostunun sağlığını koru." = "İlaç saatlerini asla kaçırma. Bildirimlerle dostunun sağlığını koru.";
+"İlk Patini Ekle" = "İlk Patini Ekle";
+"Hemen ilk evcil hayvanını kaydet, ilaç takibine başla." = "Hemen ilk evcil hayvanını kaydet, ilaç takibine başla.";
+"Pawzy AI ile kişiselleştirilmiş bakım önerileri al." = "Pawzy AI ile kişiselleştirilmiş bakım önerileri al.";
+"Pati Adı" = "Pati Adı";
+
+/* ---- PaywallView ---- */
+"Evcil dostlarımızın sağlığı için ihtiyacın olan her şey." = "Evcil dostunun sağlığı için ihtiyacın olan her şey.";
+"Sınırsız evcil hayvan ekle" = "Sınırsız evcil hayvan ekle";
+"Akıllı, tekrarlayan hatırlatıcılar" = "Akıllı, tekrarlayan hatırlatıcılar";
+"Gizlilik odaklı, veri güvenliğin önceliğimiz" = "Gizlilik odaklı, veri güvenliğiniz önceliğimiz";
+"EN POPÜLER" = "EN POPÜLER";
+"Yıllık" = "Yıllık";
+"Aylık" = "Aylık";
+"İstediğin zaman iptal et" = "İstediğin zaman iptal et";
+"/yıl" = "/yıl";
+"/ay" = "/ay";
+"İşleniyor..." = "İşleniyor...";
+"Ücretsiz kullan" = "Ücretsiz kullan";
+"Kullanıcı Sözleşmesi" = "Kullanıcı Sözleşmesi";
+"Gizlilik" = "Gizlilik";
+"EULA" = "EULA";
+"Geri Yükle" = "Geri Yükle";
+"En popüler plan" = "En popüler plan";
+"Paywall ekranını kapatmak için çift dokunun" = "Paywall ekranını kapatmak için çift dokunun";
+"Satın alma işlemini başlatmak için çift dokunun" = "Satın alma işlemini başlatmak için çift dokunun";
+"Premium olmadan ücretsiz sürümle devam et" = "Premium olmadan ücretsiz sürümle devam et";
+"Kullanıcı sözleşmesini görüntülemek için çift dokunun" = "Kullanıcı sözleşmesini görüntülemek için çift dokunun";
+"Gizlilik politikasını görüntülemek için çift dokunun" = "Gizlilik politikasını görüntülemek için çift dokunun";
+"EULA sayfasını görüntülemek için çift dokunun" = "EULA sayfasını görüntülemek için çift dokunun";
+"Önceki satın almaları geri yüklemek için çift dokunun" = "Önceki satın almaları geri yüklemek için çift dokunun";
+
+/* ---- Purchase Restore ---- */
+"Satın Alımları Yükle" = "Satın Alımları Yükle";
+"Satın alımlarınız başarıyla geri yüklendi." = "Satın alımlarınız başarıyla geri yüklendi.";
+"Geri yüklenecek satın alım bulunamadı." = "Geri yüklenecek satın alım bulunamadı.";
+
+/* ---- Cabinet Edit Sheet ---- */
+"İlaç Düzenle" = "İlaç Düzenle";
+"Kategori" = "Kategori";
+"Adet" = "Adet";
+"İlaç Adı" = "İlaç Adı";
+"Dozaj" = "Dozaj";
+"Dozaj (örn: 1 tablet)" = "Dozaj (örn: 1 tablet)";
+
+/* ---- Notification Content ---- */
+"İlaç zamanı geldi" = "İlaç zamanı geldi";
+
+/* ---- Paywall Accessibility ---- */
+"Yıllık planı seçmek için çift dokunun" = "Yıllık planı seçmek için çift dokunun";
+"Aylık planı seçmek için çift dokunun" = "Aylık planı seçmek için çift dokunun";
+
+/* ---- Notification Test ---- */
+"Test Bildirimi Gönder" = "Test Bildirimi Gönder";
+"5 saniye sonra test bildirimi al" = "5 saniye sonra test bildirimi al";
+"Test bildirimi göndermek için çift dokunun" = "Test bildirimi göndermek için çift dokunun";
+"Bu bir test bildirimidir. Bildirimler çalışıyor!" = "Bu bir test bildirimidir. Bildirimler çalışıyor!";
+
+/* ---- Paywall Dynamic (StoreKit) ---- */
+"tasarruf" = "tasarruf";
+"Gün" = "Gün";
+"Hafta" = "Hafta";
+"Ay" = "Ay";
+"Yıl" = "Yıl";
+"Ücretsiz Başla" = "Ücretsiz Başla";
+"/hafta" = "/hafta";
+"/gün" = "/gün";
+"Sonra" = "Sonra";
+
+/* ---- Dashboard Medications (lowercase category keys) ---- */
+"tablet" = "tablet";
+"damla" = "damla";
+"merhem" = "merhem";
+"aşı" = "aşı";
+
+/* ---- Loading State (PetDetailView) ---- */
+"Yükleniyor..." = "Yükleniyor...";
+
+/* ---- Network Offline ---- */
+"İnternet Bağlantısı" = "İnternet Bağlantısı";
+"İnternet bağlantınızı kontrol edin. Satın alma işlemi için internet bağlantısı gereklidir." = "İnternet bağlantınızı kontrol edin. Satın alma işlemi için internet bağlantısı gereklidir.";
+"Ayarlar" = "Ayarlar";
+
+/* ---- Backup Progress ---- */
+"Yedekleniyor..." = "Yedekleniyor...";
+"Geri yükleniyor..." = "Geri yükleniyor...";
+"Kontrol ediliyor..." = "Kontrol ediliyor...";
+
+/* ---- Günün İpucu ---- */
+"Günün İpucu" = "Günün İpucu";
+"Günlük ipucu hazırlanıyor..." = "Günlük ipucu hazırlanıyor...";
+
+/* ---- Tip Kartı (Dashboard) ---- */
+"Devamını oku" = "Devamını oku";
+
+/* ---- Dashboard Redesign (Arda HIG) ---- */
+"dashboard_section_meds" = "GÜNÜN İLACI";
+"dashboard_section_tip" = "GÜNÜN İPUCU";
+"dashboard_empty_title" = "Henüz bir hatırlatıcın yok";
+"dashboard_empty_body" = "Dostunun ilaçlarını takip etmeye bugün başla.";
+"dashboard_empty_cta" = "İlk İlacı Ekle";
+"dashboard_great_job" = "Harika gidiyorsun ❤️";
+"dashboard_premium_banner_title" = "Pawzy Premium";
+"dashboard_premium_banner_body" = "Sınırsız pati, AI asistan ve daha fazlası.";
+"dashboard_premium_banner_cta" = "Yükselt";
+"GÜNÜN İLACI" = "GÜNÜN İLACI";
+"GÜNÜN İPUCU" = "GÜNÜN İPUCU";
+
+/* ---- AI Disclaimer (güçlendirilmiş) ---- */
+"Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Veterinerinize danışın." = "Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Veterinerinize danışın.";
+
+/* ---- SettingsView — Tüm Verileri Sil ---- */
+"Tüm Verileri Sil" = "Tüm Verileri Sil";
+"Tüm evcil hayvan ve ilaç verilerini kalıcı olarak siler" = "Tüm evcil hayvan ve ilaç verilerini kalıcı olarak siler";
+"Veriler Silinsin mi?" = "Veriler Silinsin mi?";
+"Tüm evcil hayvan, ilaç ve sohbet verileri kalıcı olarak silinecek. Bu işlem geri alınamaz." = "Tüm evcil hayvan, ilaç ve sohbet verileri kalıcı olarak silinecek. Bu işlem geri alınamaz.";
+
+/* ---- Paywall & Monetization Sprint v1.1 ---- */
+"ile Başla" = "ile Başla";
+"Verilerini iCloud'a yedekle" = "Verilerini iCloud'a yedekle";
+"Premium" = "Premium";
+"Yapay zeka destekli günlük bakım ipuçları, dostunun sağlığı için kişiselleştirilmiş öneriler." = "Yapay zeka destekli günlük bakım ipuçları, dostunun sağlığı için kişiselleştirilmiş öneriler.";
+"Pawzy Premium denemen bitiyor" = "Pawzy Premium denemen bitiyor";
+"Ücretsiz denemenin bitmesine 2 gün kaldı. İstediğin zaman Ayarlar'dan yönetebilirsin." = "Ücretsiz denemenin bitmesine 2 gün kaldı. İstediğin zaman Ayarlar'dan yönetebilirsin.";
+"Premium üyelik gereklidir" = "Premium üyelik gereklidir";
+"Pawzy AI: Yapay zeka destekli danışman" = "Pawzy AI: Yapay zeka destekli danışman";
+
+/* ---- Paywall "Ücretsiz Kullan" (capital K) ---- */
+"Ücretsiz Kullan" = "Ücretsiz Kullan";
+
+/* ---- Onboarding AI ---- */
+"Pawzy AI" = "Pawzy AI";
+"Yapay zeka destekli evcil hayvan danışmanın. Dostunun bilgilerini kullanarak kişiselleştirilmiş öneriler al, beslenme hesaplamalarını yap, merak ettiğin her şeyi sor." = "Yapay zeka destekli evcil hayvan danışmanın. Dostunun bilgilerini kullanarak kişiselleştirilmiş öneriler al, beslenme hesaplamalarını yap, merak ettiğin her şeyi sor.";
+
+/* ---- Paywall Redesign (Baran - Arda HIG) ---- */
+"paywall_social_proof" = "⭐ 4.8 · 2.500+ pet ebeveyni Premium'da";
+"paywall_cta_start" = "Hemen Başla";
+"paywall_lifetime" = "Ömür Boyu";
+"paywall_lifetime_subtitle" = "Tek seferlik";
+"Yeniden Dene" = "Yeniden Dene";
+"Ücretsiz Kullan, premium olmadan devam et" = "Ücretsiz Kullan, premium olmadan devam et";
+"Premium özellikler olmadan uygulamayı kullanmaya devam eder" = "Premium özellikler olmadan uygulamayı kullanmaya devam eder";
+
+/* ---- StoreManager Hata Mesajları ---- */
+"Ürün bilgisi henüz yüklenmedi. Lütfen tekrar deneyin." = "Ürün bilgisi henüz yüklenmedi. Lütfen tekrar deneyin.";
+"Satın alma doğrulanamadı." = "Satın alma doğrulanamadı.";
+"purchase_product_not_loaded" = "Ürün bilgisi henüz yüklenmedi. Lütfen tekrar deneyin.";
+"purchase_verification_failed" = "Satın alma doğrulanamadı.";
+
+/* ---- Common Short ---- */
+"AI" = "AI";
+"AI Önerisi" = "AI Önerisi";
+
+/* ---- Eksik Anahtarlar (TR) — Final Tarama 11.07.2026 ---- */
+"ay" = "ay";
+"En popüler" = "En popüler";
+"gram" = "gram";
+"kcal" = "kcal";
+
+/* Beslenme (PetDetailView) */
+"BESLENME HESAPLAMA" = "BESLENME HESAPLAMA";
+"GÜNLÜK BESLENME ÖZETİ" = "GÜNLÜK BESLENME ÖZETİ";
+"Günlük Beslenme Özeti" = "Günlük Beslenme Özeti";
+"Aktivite Faktörü (k)" = "Aktivite Faktörü (k)";
+"Bazal Kalori (RER)" = "Bazal Kalori (RER)";
+"Günlük Kalori (MER)" = "Günlük Kalori (MER)";
+"Önerilen günlük mama" = "Önerilen günlük mama";
+"Hareketlilik Seviyesi" = "Hareketlilik Seviyesi";
+"Hareketsiz / Kısırlaştırılmış" = "Hareketsiz / Kısırlaştırılmış";
+"Normal" = "Normal";
+"Çok Aktif / Yavru" = "Çok Aktif / Yavru";
+"Yaş Durumu" = "Yaş Durumu";
+"Yetişkin" = "Yetişkin";
+"Yetişkin / Yaşlı" = "Yetişkin / Yaşlı";
+"Yavru (büyüme dönemi)" = "Yavru (büyüme dönemi)";
+"Yapay zekadan beslenme önerisi al" = "Yapay zekadan beslenme önerisi al";
+"NRC formülü (RER = 70 × kg^0.75), 380 kcal/100g varsayılan mama yoğunluğudur. Gerçek değerler için mama etiketine bakınız. Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Kesin beslenme programı için veteriner hekiminize danışınız." = "NRC formülü (RER = 70 × kg^0.75), 380 kcal/100g varsayılan mama yoğunluğudur. Gerçek değerler için mama etiketine bakınız. Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Kesin beslenme programı için veteriner hekiminize danışınız.";
+"Beslenme ve sağlık önerileri" = "Beslenme ve sağlık önerileri";
+"Evcil hayvan uzmanına soru sor" = "Evcil hayvan uzmanına soru sor";
+"Dostunun bilgileriyle kişiselleştirilmiş yanıtlar" = "Dostunun bilgileriyle kişiselleştirilmiş yanıtlar";
+
+/* AI Sohbet */
+"Pawzy AI'ya hoş geldin!" = "Pawzy AI'ya hoş geldin!";
+"Aklına takılan her şeyi sorabilirsin." = "Aklına takılan her şeyi sorabilirsin.";
+"Pawzy AI'ya hoş geldin! Aklına takılan her şeyi sorabilirsin." = "Pawzy AI'ya hoş geldin! Aklına takılan her şeyi sorabilirsin.";
+"Bir şey sor..." = "Bir şey sor...";
+"Gönder" = "Gönder";
+"Genel" = "Genel";
+"Genel Sohbet" = "Genel Sohbet";
+"Konuşmalar" = "Konuşmalar";
+"Konuşma geçmişi" = "Konuşma geçmişi";
+"Henüz mesaj yok" = "Henüz mesaj yok";
+"Yanıt bekleniyor" = "Yanıt bekleniyor";
+"Yapay zeka destekli evcil hayvan danışmanın." = "Yapay zeka destekli evcil hayvan danışmanın.";
+"Pawzy Premium'a Yükselt" = "Pawzy Premium'a Yükselt";
+"Önceki satın almaları geri yükle" = "Önceki satın almaları geri yükle";
+"Bilinmeyen bir hata oluştu." = "Bilinmeyen bir hata oluştu.";
+
+/* Ayarlar */
+"Dil Değiştirildi" = "Dil Değişikliği";
+"Dil değişikliğinin tam olarak uygulanması için uygulamayı yeniden başlatmanız önerilir." = "Dil değişikliğinin tam olarak uygulanması için uygulamayı yeniden başlatmanız önerilir.";
+"Görünüm seçeneklerini açar" = "Görünüm seçeneklerini açar";
+"Web sayfasını açar" = "Web sayfasını açar";
+"Fotoğrafı değiştir" = "Fotoğrafı değiştir";
+"Fotoğrafı Değiştir" = "Fotoğrafı Değiştir";
+"Düzenlemek için dokunun" = "Düzenlemek için dokunun";
+
+/* iCloud Yedekleme */
+"Yedeklendi" = "Yedeklendi";
+"Geri Yüklendi" = "Geri Yüklendi";
+"Verilerin iCloud'a başarıyla yedeklendi." = "Verilerin iCloud'a başarıyla yedeklendi.";
+"Verilerin iCloud'dan başarıyla geri yüklendi." = "Verilerin iCloud'dan başarıyla geri yüklendi.";
+"Hata" = "Hata";
+"Veri kodlanamadı" = "Veri kodlanamadı";
+"Yedek verisi boş" = "Yedek verisi boş";
+"Yedek dosyası okunamadı" = "Yedek dosyası okunamadı";
+"iCloud Drive kullanılamıyor" = "iCloud Drive kullanılamıyor";
+"Kaydetme hatası:" = "Kaydetme hatası:";
+"Yükleme hatası:" = "Yükleme hatası:";
+"Yedekleme şifreleme hatası" = "Yedekleme şifreleme hatası";
+"Yedek çözme hatası" = "Yedek çözme hatası";
+"iCloud'da yedek bulunamadı" = "iCloud'da yedek bulunamadı";
+
+/* ---- AddPetSheetView Redesign (Baran - Arda HIG) ---- */
+"Yaklaşık %d yaşında" = "Yaklaşık %d yaşında";
+"Düşük" = "Düşük";
+"Yüksek" = "Yüksek";
+"Orta seviye hareketli" = "Orta seviye hareketli";
+
+/* ---- AddMedicationSheetView Redesign (Baran - Arda HIG) ---- */
+"Hangi Pati" = "Hangi Pati";
+"Sıklık" = "Sıklık";
+"Zaman" = "Zaman";
+"Not" = "Not";
+"Not ekle..." = "Not ekle...";
+"Özel Saat" = "Özel Saat";
+"mL" = "mL";
+"gr" = "gr";
+
+/* ---- AIView LockedView Redesign (Baran - Arda HIG) ---- */
+"ai_locked_title" = "Pawzy AI — Dostunun sağlık danışmanı";
+"ai_benefit_nutrition_title" = "Akıllı beslenme önerileri";
+"ai_benefit_nutrition_body" = "Dostunun bilgilerine göre kişiselleştirilmiş mama ve takviye önerileri";
+"ai_benefit_personalized_title" = "Kişiselleştirilmiş yanıtlar";
+"ai_benefit_personalized_body" = "Dostunun yaş, kilo ve ırkına özel yanıtlar";
+"ai_benefit_health_title" = "Sağlık takibi & analiz";
+"ai_benefit_health_body" = "Dostunun sağlık durumunu takip et, trendleri gör";
+"ai_social_proof" = "10.000+ pati sever kullanıyor";
+"ai_cta_free_trial" = "7 Gün Ücretsiz Dene";

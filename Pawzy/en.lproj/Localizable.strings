@@ -1,0 +1,485 @@
+/* ============================
+   English Localization — Pawzy
+   ============================ */
+
+/* ---- Common ---- */
+"Devam" = "Continue";
+"Sürdür" = "Continue";
+"Başla" = "Get Started";
+"Atla" = "Skip";
+"İptal" = "Cancel";
+"Kaydet" = "Save";
+"Ekle" = "Add";
+"Kapat" = "Close";
+"Tamam" = "OK";
+"Açık" = "On";
+"Kapalı" = "Off";
+"tamamlandı" = "completed";
+"tamamlanmadı" = "not completed";
+"Tamamlandı olarak işaretli" = "Marked as completed";
+"Tamamlanmadı" = "Not completed";
+"seçilmedi" = "not selected";
+"hiçbiri" = "none";
+
+/* ---- Tab Bar (MainTabView) ---- */
+"Bugün" = "Today";
+"Patilerim" = "My Pets";
+"Dolap" = "Cabinet";
+"Ayarlar" = "Settings";
+
+/* ---- DashboardView ---- */
+"Bugünün dozları" = "Today's Doses";
+"ZAMAN TÜNELİ" = "TIMELINE";
+"Henüz hatırlatıcı yok" = "No reminders yet";
+"Bugün için hatırlatıcı yok" = "No reminders for today";
+"Yeni Hatırlatıcı Ekle" = "Add New Reminder";
+"Yeni hatırlatıcı ekle" = "Add new reminder";
+"İlaç hatırlatıcı ekleme formunu açar" = "Opens the medication reminder form";
+"İlaç Ekle" = "Add Medication";
+"Kamera" = "Camera";
+"Galeri" = "Gallery";
+"Fotoğrafı büyüt" = "Zoom Photo";
+"Tamamlandı olarak işaretlemek için çift dokunun" = "Double-tap to mark as completed";
+"doz tamamlandı · harika gidiyorsun" = "doses completed · you're doing great";
+"Günün İpucu" = "Tip of the Day";
+"Günlük ipucu hazırlanıyor..." = "Preparing daily tip...";
+
+/* ---- Tip Card (Dashboard) ---- */
+"Devamını oku" = "Read more";
+
+/* ---- Dashboard Redesign (Arda HIG) ---- */
+"dashboard_section_meds" = "TODAY'S MEDS";
+"dashboard_section_tip" = "DAILY TIP";
+"dashboard_empty_title" = "No reminders yet";
+"dashboard_empty_body" = "Start tracking your friend's medications today.";
+"dashboard_empty_cta" = "Add First Medication";
+"dashboard_great_job" = "You're doing great ❤️";
+"dashboard_premium_banner_title" = "Pawzy Premium";
+"dashboard_premium_banner_body" = "Unlimited pets, AI assistant, and more.";
+"dashboard_premium_banner_cta" = "Upgrade";
+"GÜNÜN İLACI" = "TODAY'S MEDS";
+"GÜNÜN İPUCU" = "DAILY TIP";
+
+/* Day names for selector */
+"Pzt" = "Mon";
+"Sal" = "Tue";
+"Çar" = "Wed";
+"Per" = "Thu";
+"Cum" = "Fri";
+"Cmt" = "Sat";
+"Paz" = "Sun";
+
+/* ---- PetsListView ---- */
+"sevimli dostun" = "lovely companions";
+"Yeni Pati Ekle" = "Add New Pet";
+"Yeni pati ekle" = "Add new pet";
+"Henüz pati yok" = "No pets yet";
+"İlk evcil hayvanını ekleyerek başla" = "Start by adding your first pet";
+"Premium'a yükselterek daha fazla pati ekle" = "Upgrade to Premium to add more pets";
+"Evcil hayvan ekleme formunu açar" = "Opens the pet add form";
+"yaş" = "yrs";
+"yaşında" = "years old";
+"kilogram" = "kilograms";
+"detaylarına gitmek için çift dokunun" = "Double-tap to view details";
+
+/* ---- CabinetView ---- */
+"İlaç Dolabı" = "Medicine Cabinet";
+"Yeni ilaç ekle" = "Add new medicine";
+"İlaç dolabına yeni ilaç ekleme formunu açar" = "Opens the medicine cabinet add form";
+"Tümü" = "All";
+"Aşı" = "Vaccine";
+"Tablet" = "Tablet";
+"Damla" = "Drop";
+"Merhem" = "Ointment";
+"Stok" = "Stock";
+"az kaldı" = "Low";
+"Bu kategoride ilaç yok" = "No medicine in this category";
+"adet" = "pcs";
+"şişe" = "bottle(s)";
+"ürün · stok azalıyor" = "%d items · %d low stock";
+" kategorisi" = " category";
+"Stok etiketi" = "Stock label";
+"Son doz" = "Last dose";
+
+/* ---- AddPetSheetView ---- */
+"Yeni Pati" = "New Pet";
+"Pati Düzenle" = "Edit Pet";
+"Fotoğraf Ekle" = "Add Photo";
+"Fotoğraf ekle" = "Add photo";
+"Profil fotoğrafı eklemek için dokunun" = "Tap to add a profile photo";
+"İsim" = "Name";
+"Örn. Pamuk" = "e.g. Whiskers";
+"Tür" = "Type";
+"Kedi" = "Cat";
+"Köpek" = "Dog";
+"Kuş" = "Bird";
+"Diğer" = "Other";
+"Cins" = "Breed";
+"Örn. British Shorthair" = "e.g. British Shorthair";
+"Patinizin cinsini girin" = "Enter your pet's breed";
+"Doğum Tarihi" = "Date of Birth";
+"Kilo" = "Weight";
+"kg" = "kg";
+"Cinsiyet" = "Gender";
+"Dişi" = "Female";
+"Erkek" = "Male";
+"Gerekli alanları doldurun" = "Fill in the required fields";
+"Pati eklemeyi iptal eder" = "Cancels adding the pet";
+"Yeni patiyi kaydeder" = "Saves the new pet";
+"Patinizin adını girin" = "Enter your pet's name";
+
+/* ---- AddMedicationSheetView ---- */
+"Yeni Hatırlatıcı" = "New Reminder";
+"Ekle" = "Add";
+"Hatırlatıcı eklemeyi iptal eder" = "Cancels adding the reminder";
+"Yeni hatırlatıcıyı ekler" = "Adds the new reminder";
+"İlaç Adı" = "Medicine Name";
+"İlaç adı" = "Medicine name";
+"İlacın adını girin" = "Enter the medicine name";
+"Örn. Bravecto" = "e.g. Bravecto";
+"HANGİ PATİ" = "WHICH PET";
+"Seçilmedi" = "Not Selected";
+"Henüz pati eklenmemiş" = "No pets added yet";
+"KATEGORİ" = "CATEGORY";
+"Dozaj" = "Dosage";
+"1 tablet" = "1 tablet";
+"Dozaj miktarını girin, örn. 1 tablet" = "Enter dosage amount, e.g. 1 tablet";
+"SIKLIK" = "FREQUENCY";
+"Her gün" = "Daily";
+"12 saatte" = "Every 12h";
+"Haftalık" = "Weekly";
+"HATIRLATMA SAATİ" = "REMINDER TIME";
+"Özel saat ekle" = "Add custom time";
+"Saati onayla" = "Confirm time";
+"Özel saat" = "Custom time";
+"Kendi hatırlatma saatinizi seçmek için dokunun" = "Tap to choose your custom reminder time";
+
+/* ---- PetDetailView ---- */
+"Yaş" = "Age";
+"Kilo" = "Weight";
+"Cinsiyet" = "Gender";
+"yaş" = "yrs";
+"İlaçları" = "Medications";
+"Henüz ilaç eklenmemiş" = "No medications added yet";
+"Detaylı sağlık raporları için Premium'a yükselt" = "Upgrade to Premium for detailed health reports";
+"Yükselt" = "Upgrade";
+"Premium'da kullanılabilir" = "Available in Premium";
+"Düzenle" = "Edit";
+
+/* ---- SettingsView ---- */
+"Pawzy Premium" = "Pawzy Premium";
+"Sınırsız pati, akıllı hatırlatıcılar." = "Unlimited pets, smart reminders.";
+"BİLDİRİMLER" = "NOTIFICATIONS";
+"Hatırlatıcılar" = "Reminders";
+"İlaç saatlerinde bildir" = "Notify at medication times";
+"Sesli Uyarı" = "Sound Alert";
+"Bildirim sesi çal" = "Play notification sound";
+"Rozet Sayacı" = "Badge Counter";
+"Simgede bekleyen doz" = "Pending doses on icon";
+"VERİ & GİZLİLİK" = "DATA & PRIVACY";
+"HAKKINDA" = "ABOUT";
+"Sürüm" = "Version";
+"Pawzy'i Değerlendir" = "Rate Pawzy";
+"Kullanım Koşulları" = "Terms of Use";
+"Gizlilik Politikası" = "Privacy Policy";
+"Verileri Dışa Aktar" = "Export Data";
+"Dil / Language" = "Language";
+"Dil Değişikliği" = "Language Change";
+"Değişiklik için uygulamayı yeniden başlatın." = "Restart the app for changes to take effect.";
+"Açmak veya kapatmak için çift dokunun" = "Double-tap to toggle";
+"Ayrıntıları görüntülemek için çift dokunun" = "Double-tap to view details";
+"Dil seçimi ekranını açar" = "Opens the language selection screen";
+"Görünüm" = "Appearance";
+"Sistem" = "System";
+"Aydınlık" = "Light";
+"Karanlık" = "Dark";
+"Yükselt, Pawzy Premium'a geç" = "Upgrade to Pawzy Premium";
+"Premium üyeliğin aktif. Desteklediğin için teşekkürler!" = "Your premium membership is active. Thanks for your support!";
+
+/* ---- OnboardingView (Apple Health style) ---- */
+"onboarding_welcome_title" = "Welcome to Pawzy";
+"onboarding_welcome_body" = "Combine your pet's medication tracking and health advice in one app.";
+"onboarding_notify_title" = "Never Miss a Dose";
+"onboarding_notify_body" = "Track medication times with smart reminders and protect your friend's health.";
+"onboarding_ready_title" = "You're All Set";
+"onboarding_ready_body" = "Add your first pet and start tracking medications right away. Your friend's health is in your hands.";
+"onboarding_continue" = "Continue";
+"onboarding_skip" = "Skip";
+"onboarding_pet_title" = "Let's Meet Your Pet";
+"onboarding_pet_body" = "Write their name, add a photo. We'll handle the rest.";
+"onboarding_pet_name_label" = "Pet Name";
+"onboarding_pet_name_placeholder" = "e.g. Whiskers";
+"onboarding_med_title" = "Set Your First Reminder";
+"onboarding_med_body" = "In less than a minute. The first step for your friend\u2019s health.";
+"onboarding_med_name_label" = "Medicine Name";
+"onboarding_med_name_placeholder" = "e.g. Vitamin, Vaccine...";
+"onboarding_med_time_label" = "Time";
+"onboarding_med_repeat_label" = "Repeat";
+"onboarding_med_repeat_daily" = "Daily";
+"onboarding_med_repeat_weekly" = "Weekly";
+"onboarding_med_repeat_monthly" = "Monthly";
+"onboarding_med_save" = "Save Reminder";
+"onboarding_med_saved_title" = "Reminder Set!";
+"zorunlu_alan" = "required field";
+"Onboarding'i atlayıp ana ekrana geçer" = "Skips onboarding and goes to the main screen";
+"onboarding_page_indicator" = "Page %d of 3";
+"onboarding_med_preview_label" = "Medication preview: %@, %@, %@";
+"onboarding_time_decrease_15" = "Decrease 15 minutes";
+"onboarding_time_increase_15" = "Increase 15 minutes";
+"onboarding_time_accessibility" = "Time, %@";
+
+/* ---- Eski onboarding (kaldırılacak, şimdilik duruyor) ---- */
+"Pawzy'e Hoş Geldin" = "Welcome to Pawzy";
+"Evcil dostlarının ilaç takibini hiç olmadığı kadar kolaylaştır." = "Make tracking your pet's medications easier than ever.";
+"Akıllı Hatırlatıcılar" = "Smart Reminders";
+"İlaç saatlerini asla kaçırma. Bildirimlerle dostunun sağlığını koru." = "Never miss a medication time. Protect your pet's health with notifications.";
+"İlk Patini Ekle" = "Add Your First Pet";
+"Hemen ilk evcil hayvanını kaydet, ilaç takibine başla." = "Register your first pet now and start tracking medications.";
+"Pawzy AI ile kişiselleştirilmiş bakım önerileri al." = "Get personalized care recommendations with Pawzy AI.";
+"Pati Adı" = "Pet Name";
+"Örn. Pamuk" = "e.g. Whiskers";
+
+/* ---- PaywallView ---- */
+"Evcil dostlarımızın sağlığı için ihtiyacın olan her şey." = "Everything you need for your companions' health.";
+"Sınırsız evcil hayvan ekle" = "Add unlimited pets";
+"Akıllı, tekrarlayan hatırlatıcılar" = "Smart, repeating reminders";
+"Gizlilik odaklı, veri güvenliğin önceliğimiz" = "Privacy-focused, your data is our priority";
+"EN POPÜLER" = "MOST POPULAR";
+"Yıllık" = "Yearly";
+"Aylık" = "Monthly";
+"İstediğin zaman iptal et" = "Cancel anytime";
+"/yıl" = "/year";
+"/ay" = "/month";
+"İşleniyor..." = "Processing...";
+"Ücretsiz kullan" = "Use Free Version";
+"Kullanıcı Sözleşmesi" = "Terms of Use";
+"Gizlilik" = "Privacy";
+"EULA" = "EULA";
+"Geri Yükle" = "Restore";
+"En popüler plan" = "Most popular plan";
+"Kapat" = "Close";
+"Paywall ekranını kapatmak için çift dokunun" = "Double-tap to close the paywall screen";
+"Satın alma işlemini başlatmak için çift dokunun" = "Double-tap to start purchase";
+"Premium olmadan ücretsiz sürümle devam et" = "Continue with the free version";
+"Kullanıcı sözleşmesini görüntülemek için çift dokunun" = "Double-tap to view terms of use";
+"Gizlilik politikasını görüntülemek için çift dokunun" = "Double-tap to view privacy policy";
+"EULA sayfasını görüntülemek için çift dokunun" = "Double-tap to view EULA";
+"Önceki satın almaları geri yüklemek için çift dokunun" = "Double-tap to restore previous purchases";
+
+/* ---- Purchase Restore ---- */
+"Satın Alımları Yükle" = "Restore Purchases";
+"Satın alımlarınız başarıyla geri yüklendi." = "Your purchases have been restored successfully.";
+"Geri yüklenecek satın alım bulunamadı." = "No purchases found to restore.";
+
+/* ---- Cabinet Edit Sheet ---- */
+"İlaç Düzenle" = "Edit Medicine";
+"Kategori" = "Category";
+"Adet" = "Qty";
+"İlaç Adı" = "Medicine Name";
+"Dozaj" = "Dosage";
+"Dozaj (örn: 1 tablet)" = "Dosage (e.g. 1 tablet)";
+"Stok" = "Stock";
+"Stok etiketi" = "Stock label";
+
+/* ---- Notification Content ---- */
+"İlaç zamanı geldi" = "Medication time";
+
+/* ---- Paywall Accessibility ---- */
+"Yıllık planı seçmek için çift dokunun" = "Double-tap to select yearly plan";
+"Aylık planı seçmek için çift dokunun" = "Double-tap to select monthly plan";
+
+/* ---- Notification Test ---- */
+"Test Bildirimi Gönder" = "Send Test Notification";
+"5 saniye sonra test bildirimi al" = "Receive test notification in 5 sec";
+"Test bildirimi göndermek için çift dokunun" = "Double-tap to send test notification";
+"Bu bir test bildirimidir. Bildirimler çalışıyor!" = "This is a test notification. Notifications are working!";
+
+/* ---- Paywall Dynamic (StoreKit) ---- */
+"tasarruf" = "savings";
+"Gün" = "Day";
+"Hafta" = "Week";
+"Ay" = "Month";
+"Yıl" = "Year";
+"Ücretsiz Başla" = "Free Trial";
+"/hafta" = "/week";
+"/gün" = "/day";
+"Sonra" = "Then";
+
+/* ---- PetDetailView Beslenme ---- */
+"BESLENME" = "NUTRITION";
+"Günlük Beslenme Özeti" = "Daily Nutrition Summary";
+"Bazal Kalori (RER)" = "Basal Calories (RER)";
+"Günlük Kalori (MER)" = "Daily Calories (MER)";
+"kcal" = "kcal";
+"Önerilen günlük mama" = "Recommended daily food";
+"gram" = "grams";
+"Aktivite Faktörü (k)" = "Activity Factor (k)";
+"Hareketlilik Seviyesi" = "Activity Level";
+"Yaş Durumu" = "Age Status";
+"Yapay Zekadan Öneri Al" = "Get AI Advice";
+"Öneri hazırlanıyor..." = "Preparing advice...";
+"Yapay zeka beslenme önerini hazırlıyor." = "AI is preparing nutrition advice for you.";
+"Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Kesin beslenme programı için veteriner hekiminize danışınız." = "This information is not medical advice, for informational purposes only. Consult your veterinarian for a definitive nutrition plan.";
+"Öneri alınamadı" = "Could not get advice";
+"Bilinmeyen bir hata oluştu." = "An unknown error occurred.";
+"Hareketsiz / Kısırlaştırılmış" = "Sedentary / Neutered";
+"Normal" = "Normal";
+"Çok Aktif / Yavru" = "Very Active / Puppy";
+"Yetişkin" = "Adult";
+"Yavru (büyüme dönemi)" = "Puppy (growth period)";
+"Yetişkin / Yaşlı" = "Adult / Senior";
+"Beslenme Önerisi" = "Nutrition Advice";
+"Yapay zekadan beslenme önerisi al" = "Get AI nutrition advice";
+"Fotoğrafı Değiştir" = "Change Photo";
+"Fotoğrafı değiştir" = "Change photo";
+
+/* ---- AIView LockedView ---- */
+"Pawzy AI: Yapay zeka destekli danışman" = "Pawzy AI: AI-powered assistant";
+"Yapay zeka destekli evcil hayvan danışmanın." = "Your AI-powered pet consultant.";
+"Premium üyelere özel Pawzy AI sohbet özelliği. Hemen yükselt ve evcil hayvan uzmanına sorularını sor." = "Premium members exclusive Pawzy AI chat. Upgrade now and ask your questions to the pet expert.";
+"Pawzy Premium'a Yükselt" = "Upgrade to Pawzy Premium";
+"Önceki satın almaları geri yükle" = "Restore previous purchases";
+"Evcil hayvan uzmanına soru sor" = "Ask the pet expert";
+"Dostunun bilgileriyle kişiselleştirilmiş yanıtlar" = "Personalized answers with your pet's info";
+"Beslenme ve sağlık önerileri" = "Nutrition and health advice";
+"Konuşmalar" = "Conversations";
+"Genel Sohbet" = "General Chat";
+"Henüz mesaj yok" = "No messages yet";
+"Konuşma geçmişi" = "Conversation history";
+
+/* ---- AIView ChatView ---- */
+"Pawzy AI'ya hoş geldin!" = "Welcome to Pawzy AI!";
+"Aklına takılan her şeyi sorabilirsin." = "You can ask anything on your mind.";
+"Bir şey sor..." = "Ask something...";
+"Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır." = "This information is not medical advice, for informational purposes only.";
+"Gönder" = "Send";
+"Genel" = "General";
+
+/* ---- SettingsView iCloud ---- */
+"iCloud'a Yedekle" = "Backup to iCloud";
+"iCloud'dan Geri Yükle" = "Restore from iCloud";
+"Yedeklendi" = "Backup Complete";
+"Geri Yüklendi" = "Restore Complete";
+"Verilerin iCloud'a başarıyla yedeklendi." = "Data successfully backed up.";
+"Verilerin iCloud'dan başarıyla geri yüklendi." = "Data successfully restored.";
+"Hata" = "Error";
+
+/* ---- Medicines (Cabinet) ---- */
+"Sil" = "Delete";
+
+/* ---- Dashboard Medications (lowercase category keys) ---- */
+"tablet" = "tablet";
+"damla" = "drop";
+"merhem" = "ointment";
+"aşı" = "vaccine";
+
+/* ---- Loading State (PetDetailView) ---- */
+"Yükleniyor..." = "Loading...";
+
+/* ---- Network Offline ---- */
+"İnternet Bağlantısı" = "Internet Connection";
+"İnternet bağlantınızı kontrol edin. Satın alma işlemi için internet bağlantısı gereklidir." = "Please check your internet connection. An internet connection is required for purchases.";
+"Ayarlar" = "Settings";
+
+/* ---- Backup Progress ---- */
+"Yedekleniyor..." = "Backing up...";
+"Geri yükleniyor..." = "Restoring...";
+"Kontrol ediliyor..." = "Checking...";
+
+/* ---- AI Disclaimer (strengthened) ---- */
+"Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Veterinerinize danışın." = "This information is not medical advice, for informational purposes only. Consult your veterinarian.";
+
+/* ---- SettingsView — Delete All Data ---- */
+"Tüm Verileri Sil" = "Delete All Data";
+"Tüm evcil hayvan ve ilaç verilerini kalıcı olarak siler" = "Permanently deletes all pet and medication data";
+"Veriler Silinsin mi?" = "Delete Data?";
+"Tüm evcil hayvan, ilaç ve sohbet verileri kalıcı olarak silinecek. Bu işlem geri alınamaz." = "All pet, medication and chat data will be permanently deleted. This action cannot be undone.";
+
+/* ---- Paywall & Monetization Sprint v1.1 ---- */
+"ile Başla" = "Start";
+"Verilerini iCloud'a yedekle" = "Back up your data to iCloud";
+"Premium" = "Premium";
+"Yapay zeka destekli günlük bakım ipuçları, dostunun sağlığı için kişiselleştirilmiş öneriler." = "AI-powered daily care tips, personalized recommendations for your companion's health.";
+"Pawzy Premium denemen bitiyor" = "Your Pawzy Premium trial is ending";
+"Ücretsiz denemenin bitmesine 2 gün kaldı. İstediğin zaman Ayarlar'dan yönetebilirsin." = "Your free trial ends in 2 days. You can manage it anytime from Settings.";
+"Premium üyelik gereklidir" = "Premium subscription required";
+
+/* ---- Paywall "Ücretsiz Kullan" (capital K) ---- */
+"Ücretsiz Kullan" = "Use for Free";
+
+/* ---- Onboarding AI ---- */
+"Pawzy AI" = "Pawzy AI";
+"Yapay zeka destekli evcil hayvan danışmanın. Dostunun bilgilerini kullanarak kişiselleştirilmiş öneriler al, beslenme hesaplamalarını yap, merak ettiğin her şeyi sor." = "Your AI-powered pet consultant. Get personalized recommendations using your companion's information, calculate nutrition, and ask anything on your mind.";
+
+/* ---- Paywall Redesign (Baran - Arda HIG) ---- */
+"paywall_social_proof" = "⭐ 4.8 · 2,500+ pet parents on Premium";
+"paywall_cta_start" = "Start Now";
+"paywall_lifetime" = "Lifetime";
+"paywall_lifetime_subtitle" = "One-time";
+"Yeniden Dene" = "Retry";
+"Ücretsiz Kullan, premium olmadan devam et" = "Use for Free, continue without premium";
+"Premium özellikler olmadan uygulamayı kullanmaya devam eder" = "Continue using the app without premium features";
+
+/* ---- StoreManager Error Messages ---- */
+"Ürün bilgisi henüz yüklenmedi. Lütfen tekrar deneyin." = "Product information not loaded yet. Please try again.";
+"Satın alma doğrulanamadı." = "Purchase could not be verified.";
+"purchase_product_not_loaded" = "Product information not loaded yet. Please try again.";
+"purchase_verification_failed" = "Purchase could not be verified.";
+
+/* ---- Common Short ---- */
+"AI" = "AI";
+"AI Önerisi" = "AI Advice";
+
+/* ---- Missing Keys (EN) — Final Scan 11.07.2026 ---- */
+"ay" = "mo";
+"En popüler" = "Most popular";
+
+/* Nutrition (PetDetailView) */
+"BESLENME HESAPLAMA" = "NUTRITION CALCULATION";
+"GÜNLÜK BESLENME ÖZETİ" = "DAILY NUTRITION SUMMARY";
+"Dil Değiştirildi" = "Language Changed";
+"Dil değişikliğinin tam olarak uygulanması için uygulamayı yeniden başlatmanız önerilir." = "Please restart the app for language changes to take full effect.";
+"Görünüm seçeneklerini açar" = "Opens appearance options";
+"Web sayfasını açar" = "Opens webpage";
+"Düzenlemek için dokunun" = "Tap to edit";
+"Yanıt bekleniyor" = "Waiting for response";
+"Pawzy AI'ya hoş geldin! Aklına takılan her şeyi sorabilirsin." = "Welcome to Pawzy AI! You can ask anything on your mind.";
+
+/* iCloud Backup */
+"Veri kodlanamadı" = "Data could not be encoded";
+"Yedek verisi boş" = "Backup data is empty";
+"Yedek dosyası okunamadı" = "Backup file could not be read";
+"iCloud Drive kullanılamıyor" = "iCloud Drive is unavailable";
+"Kaydetme hatası:" = "Save error:";
+"Yükleme hatası:" = "Load error:";
+"Yedekleme şifreleme hatası" = "Backup encryption error";
+"Yedek çözme hatası" = "Backup decryption error";
+"iCloud'da yedek bulunamadı" = "No backup found in iCloud";
+"NRC formülü (RER = 70 × kg^0.75), 380 kcal/100g varsayılan mama yoğunluğudur. Gerçek değerler için mama etiketine bakınız. Bu bilgiler tıbbi tavsiye niteliği taşımaz, öneri amaçlıdır. Kesin beslenme programı için veteriner hekiminize danışınız." = "NRC formula (RER = 70 × kg^0.75), based on 380 kcal/100g default food density. Check the food label for actual values. This information is not medical advice, for informational purposes only. Consult your veterinarian for a definitive nutrition plan.";
+
+/* ---- AddPetSheetView Redesign (Baran - Arda HIG) ---- */
+"Yaklaşık %d yaşında" = "Approximately %d years old";
+"Düşük" = "Low";
+"Yüksek" = "High";
+"Orta seviye hareketli" = "Moderately active";
+
+/* ---- AddMedicationSheetView Redesign (Baran - Arda HIG) ---- */
+"Hangi Pati" = "Which Pet";
+"Sıklık" = "Frequency";
+"Zaman" = "Time";
+"Not" = "Note";
+"Not ekle..." = "Add note...";
+"Özel Saat" = "Custom Time";
+"mL" = "mL";
+"gr" = "gr";
+
+/* ---- AIView LockedView Redesign (Baran - Arda HIG) ---- */
+"ai_locked_title" = "Pawzy AI — Your pet's health advisor";
+"ai_benefit_nutrition_title" = "Smart nutrition advice";
+"ai_benefit_nutrition_body" = "Personalized food and supplement recommendations based on your pet's info";
+"ai_benefit_personalized_title" = "Personalized answers";
+"ai_benefit_personalized_body" = "Answers tailored to your pet's age, weight and breed";
+"ai_benefit_health_title" = "Health tracking & analysis";
+"ai_benefit_health_body" = "Track your pet's health, see trends";
+"ai_social_proof" = "10,000+ pet lovers use it";
+"ai_cta_free_trial" = "Try Free for 7 Days";
