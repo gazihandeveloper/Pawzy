@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Pawzy — Evcil Hayvan İlaç & Sağlık Takip Uygulaması</title>
+    <style>
+        :root {
+            --coral: #E05A67;
+            --coral-light: #FFE5E8;
+            --surface: #FFFFFF;
+            --surface2: #F9F9FB;
+            --text: #1C1C1E;
+            --text2: #636366;
+            --text3: #A0A0A5;
+            --blue: #4A90D9;
+            --green: #34C759;
+            --amber: #FF9500;
+            --radius: 18px;
+            --radius-sm: 12px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, 'SF Pro Display', 'Inter', system-ui, sans-serif;
+            background: var(--surface2);
+            color: var(--text);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(160deg, #FFF5F6 0%, #FFFFFF 40%, #FFF0F2 100%);
+            text-align: center;
+            padding: 80px 20px 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 400px; height: 400px;
+            background: radial-gradient(circle, rgba(224,90,103,0.08) 0%, transparent 70%);
+            top: -100px; right: -100px;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .hero .paw {
+            font-size: 72px;
+            animation: float 3s ease-in-out infinite;
+            position: relative; z-index: 1;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .hero h1 {
+            font-size: clamp(32px, 6vw, 48px);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin: 12px 0 8px;
+            position: relative; z-index: 1;
+        }
+        .hero h1 span { color: var(--coral); }
+        .hero .subtitle {
+            font-size: 19px;
+            color: var(--text2);
+            max-width: 580px;
+            margin: 0 auto 24px;
+            position: relative; z-index: 1;
+        }
+        .hero .badges {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative; z-index: 1;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .badge-ios { background: #E8F2FF; color: #007AFF; }
+        .badge-ai { background: #F3E8FF; color: #7C3AED; }
+        .badge-privacy { background: #E6F7F1; color: #34C759; }
+        .badge-tr { background: #FFF3EB; color: #E05A67; }
+
+        /* CONTAINER */
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* SECTION */
+        .section {
+            background: var(--surface);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+        }
+        .section h2 {
+            font-size: 24px;
+            font-weight: 750;
+            margin-bottom: 6px;
+            letter-spacing: -0.3px;
+        }
+        .section .section-desc {
+            font-size: 15px;
+            color: var(--text2);
+            margin-bottom: 20px;
+        }
+
+        /* FEATURE GRID */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+        }
+        .feature-card {
+            background: var(--surface2);
+            border-radius: var(--radius-sm);
+            padding: 20px;
+            transition: transform 0.15s ease;
+        }
+        .feature-card:hover { transform: translateY(-2px); }
+        .feature-card .icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .feature-card .title {
+            font-size: 15px;
+            font-weight: 650;
+            margin-bottom: 4px;
+        }
+        .feature-card .desc {
+            font-size: 13px;
+            color: var(--text2);
+        }
+
+        /* SCREEN LIST */
+        .screen-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .screen-item {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+            background: var(--surface2);
+            border-radius: var(--radius-sm);
+            align-items: flex-start;
+        }
+        .screen-item .si-icon {
+            font-size: 28px;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 12px;
+            flex-shrink: 0;
+        }
+        .screen-item .si-info h4 {
+            font-size: 15px;
+            font-weight: 650;
+            margin-bottom: 2px;
+        }
+        .screen-item .si-info p {
+            font-size: 13px;
+            color: var(--text2);
+            margin: 0;
+        }
+        .screen-item .si-tag {
+            margin-left: auto;
+            flex-shrink: 0;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 8px;
+            white-space: nowrap;
+        }
+        .tag-new { background: #E6F7F1; color: var(--green); }
+        .tag-core { background: #E8F2FF; color: var(--blue); }
+        .tag-premium { background: #FFF3EB; color: var(--coral); }
+
+        /* TECH */
+        .tech-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px;
+        }
+        .tech-item {
+            background: var(--surface2);
+            border-radius: var(--radius-sm);
+            padding: 14px;
+            text-align: center;
+        }
+        .tech-item .tech-name {
+            font-size: 14px;
+            font-weight: 650;
+            margin-bottom: 2px;
+        }
+        .tech-item .tech-desc {
+            font-size: 11px;
+            color: var(--text3);
+        }
+
+        /* TIMELINE */
+        .timeline {
+            position: relative;
+            padding-left: 32px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background: var(--coral-light);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--coral);
+        }
+        .timeline-item h4 {
+            font-size: 15px;
+            font-weight: 650;
+        }
+        .timeline-item p {
+            font-size: 13px;
+            color: var(--text2);
+        }
+
+        /* STATS */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 12px;
+        }
+        .stat-card {
+            background: var(--surface2);
+            border-radius: var(--radius-sm);
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-card .stat-num {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--coral);
+        }
+        .stat-card .stat-label {
+            font-size: 12px;
+            color: var(--text2);
+        }
+
+        /* FOOTER */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text3);
+            font-size: 13px;
+        }
+        .footer strong { color: var(--text2); }
+
+        /* RESPONSIVE */
+        @media (max-width: 600px) {
+            .hero { padding: 50px 16px 40px; }
+            .section { padding: 24px 18px; }
+            .screen-item { flex-direction: column; }
+            .screen-item .si-tag { margin-left: 0; align-self: flex-start; }
+            .feature-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+    <div class="paw">🐾</div>
+    <h1><span>Pawzy</span> — Patili Dostların Sağlık Koçu</h1>
+    <p class="subtitle">
+        Evcil hayvan sahiplerinin ilaç takibini, sağlık rutinlerini ve veteriner süreçlerini
+        <strong>yapay zeka desteğiyle</strong> kolaylaştıran, tamamen cihaz üstünde çalışan iOS uygulaması.
+    </p>
+    <div class="badges">
+        <span class="badge badge-ios">📱 iOS 18+</span>
+        <span class="badge badge-ai">🤖 DeepSeek AI</span>
+        <span class="badge badge-privacy">🔒 Cihaz-Üstü</span>
+        <span class="badge badge-tr">🇹🇷🇬🇧 TR & EN</span>
+    </div>
+</header>
+
+<div class="container">
+
+<!-- ═══════════ PROBLEM & ÇÖZÜM ═══════════ -->
+<div class="section">
+    <h2>🎯 Pawzy Hangi Sorunu Çözer?</h2>
+    <p class="section-desc">Her evcil hayvan sahibinin yaşadığı 3 temel problem:</p>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <h4>😰 "Acaba ilacını bugün verdim mi?"</h4>
+            <p>Günde 2-3 farklı ilaç, farklı dozajlar, farklı saatler — takip etmesi imkansız. Pawzy her ilacı zamanında hatırlatır, verildi olarak işaretlersin.</p>
+        </div>
+        <div class="timeline-item">
+            <h4>📋 "Veterinere giderken ilaç geçmişini nasıl göstereceğim?"</h4>
+            <p>Pawzy tüm ilaç geçmişini kaydeder. Veterinere tek dokunuşla gösterirsin. Hangi ilaç, hangi doz, ne zaman başladı, ne zaman bitti — hepsi kayıtlı.</p>
+        </div>
+        <div class="timeline-item">
+            <h4>🤔 "Köpeğim halsiz, acaba endişelenmeli miyim?"</h4>
+            <p>Pawzy AI — DeepSeek destekli veteriner asistanı. Semptom sor, bakım önerisi al, beslenme danış. Her zaman son sözü veterinere bırakarak.</p>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ HEDEF KİTLE ═══════════ -->
+<div class="section">
+    <h2>👤 Kimler İçin?</h2>
+    <p class="section-desc">Pawzy, evcil hayvanının sağlığını ciddiye alan herkes için:</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">🐶</span>
+            <div class="title">Köpek Sahipleri</div>
+            <div class="desc">Düzenli parazit ilaçları, vitamin takviyeleri, yaşlı köpek bakım rutinleri.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🐱</span>
+            <div class="title">Kedi Sahipleri</div>
+            <div class="desc">Tüy yumağı önleyici macunlar, aşı takvimi, kronik hastalık takibi.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🐦</span>
+            <div class="title">Kuş & Egzotik</div>
+            <div class="desc">Muhabbet kuşundan tavşana — tüm evcil dostlar için özel ilaç takibi.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🏠</span>
+            <div class="title">Çoklu Pati Evleri</div>
+            <div class="desc">3 köpek, 2 kedi — tek uygulamada hepsinin ilaçları ayrı ayrı takip.</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ ÖZELLİKLER ═══════════ -->
+<div class="section">
+    <h2>✨ Tüm Özellikler</h2>
+    <p class="section-desc">Pawzy'nin sunduğu her şey — detaylı:</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">💊</span>
+            <div class="title">Akıllı İlaç Takibi</div>
+            <div class="desc">İlaç adı, dozaj, sıklık (günlük/haftalık/aylık), başlangıç-bitiş tarihi. Her ilaç için özel hatırlatıcı.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🔔</span>
+            <div class="title">İlaç Hatırlatıcıları</div>
+            <div class="desc">UserNotifications ile tam zamanında bildirim. "Verildi" / "Ertele" butonları. Arka planda çalışır.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🐾</span>
+            <div class="title">Çoklu Evcil Hayvan</div>
+            <div class="desc">Sınırsız pet profili. Her biri için fotoğraf, isim, tür, yaş, cinsiyet, kilo, özel notlar.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📊</span>
+            <div class="title">Dashboard</div>
+            <div class="desc">Bugünün ilaç durumu tek ekranda. Progress ring ile günlük tamamlanma. Premium'da günlük AI ipucu.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🗄️</span>
+            <div class="title">İlaç Dolabı</div>
+            <div class="desc">Tüm aktif ve geçmiş ilaçlar. Filtreleme, arama, durum takibi. Hangi ilaç ne zaman bitecek?</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🤖</span>
+            <div class="title">Pawzy AI Asistan</div>
+            <div class="desc">DeepSeek V4 Flash ile sohbet. İlaç etkileşimleri, semptom analizi, bakım önerileri. Veteriner yönlendirmesi her zaman.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📅</span>
+            <div class="title">Geçmiş & Rapor</div>
+            <div class="desc">Her ilacın tam geçmişi. Verilme zamanları, atlanan dozlar. Veteriner ziyareti öncesi tek dokunuşla rapor.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🌙</span>
+            <div class="title">Dark Mode</div>
+            <div class="desc">Sistem genelinde otomatik karanlık mod. Antrasit tonları, göz yormayan kontrast.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">♿</span>
+            <div class="title">Erişilebilirlik</div>
+            <div class="desc">Dynamic Type (tüm font boyutları ölçeklenir), VoiceOver etiketleri, Reduce Motion, yüksek kontrast.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🌍</span>
+            <div class="title">Türkçe & İngilizce</div>
+            <div class="desc">Tam lokalizasyon. 460+ anahtar. Uygulama içi dil değiştirme. Cihaz dilinden bağımsız.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">☁️</span>
+            <div class="title">Yedekleme</div>
+            <div class="desc">Cihaz içi JSON yedekleme ve geri yükleme. Yeni telefona geçerken tüm verilerini taşı.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">💳</span>
+            <div class="title">Premium Abonelik</div>
+            <div class="desc">StoreKit 2 ile şeffaf fiyatlandırma. Dinamik fiyat (locale-duyarlı). 7 gün ücretsiz deneme. İstediğin zaman iptal.</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ EKRANLAR ═══════════ -->
+<div class="section">
+    <h2>📱 Uygulama Ekranları</h2>
+    <p class="section-desc">Pawzy 10 ana ekrandan oluşur. Her biri Apple HIG standartlarında:</p>
+    <div class="screen-list">
+        <div class="screen-item">
+            <div class="si-icon">👋</div>
+            <div class="si-info">
+                <h4>Onboarding</h4>
+                <p>Apple Health stilinde 3 sayfa. "Hoş Geldin" → "Nasıl Çalışır" → "Başla". Kullanıcıyı 60 saniyede uygulamaya bağlar. İzinler bağlamında istenir.</p>
+            </div>
+            <span class="si-tag tag-new">Onboarding</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">📊</div>
+            <div class="si-info">
+                <h4>Dashboard (Ana Sayfa)</h4>
+                <p>Bugünün ilaç durumu, progress ring, her pet için ayrı kart. Premium'da günlük AI sağlık ipucu. Pull-to-refresh, haptic feedback.</p>
+            </div>
+            <span class="si-tag tag-core">Ana Ekran</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">🐱</div>
+            <div class="si-info">
+                <h4>Patilerim (Pet Listesi)</h4>
+                <p>Tüm evcil hayvanların listesi. Fotoğraf, isim, tür. Swipe ile düzenle/sil. Sağ üstten yeni pet ekle. Premium gate: 1 pet ücretsiz.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">📋</div>
+            <div class="si-info">
+                <h4>Pet Detay</h4>
+                <p>Tek pet'in tüm bilgileri: fotoğraf, kilo, yaş, aktif ilaçlar, geçmiş ilaçlar, beslenme hesaplayıcı (NRC), premium'da AI beslenme önerisi.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">💊</div>
+            <div class="si-info">
+                <h4>İlaç Ekleme</h4>
+                <p>Sade form: ilaç adı, dozaj, sıklık, başlangıç/bitiş tarihi, özel not. Hatırlatıcı zamanı ayarlama. Sadece 165 satır — temiz, hızlı.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">🗄️</div>
+            <div class="si-info">
+                <h4>İlaç Dolabı</h4>
+                <p>Tüm ilaçların listesi. Aktif / Pasif / Tümü filtreleme. Her ilaç için durum çipi. Hangi pet'e ait olduğu görünür.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">🤖</div>
+            <div class="si-info">
+                <h4>Pawzy AI (Sohbet)</h4>
+                <p>DeepSeek V4 Flash API ile sohbet asistanı. Her pet için özel konuşma geçmişi. Premium gate: locked ekran → 7 gün ücretsiz deneme CTA'sı.</p>
+            </div>
+            <span class="si-tag tag-premium">Premium</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">💎</div>
+            <div class="si-info">
+                <h4>Paywall (Premium)</h4>
+                <p>Apple iCloud+ stilinde sade ödeme ekranı. Aylık / Yıllık plan seçimi. StoreKit 2 dinamik fiyat, trial süresi. Geri yükleme, kullanım koşulları.</p>
+            </div>
+            <span class="si-tag tag-premium">Premium</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">⚙️</div>
+            <div class="si-info">
+                <h4>Ayarlar</h4>
+                <p>Profil, bildirim, görünüm (açık/koyu/sistem), dil (TR/EN), yedekleme, veri silme, premium durumu, değerlendirme, footer linkler.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+        <div class="screen-item">
+            <div class="si-icon">➕</div>
+            <div class="si-info">
+                <h4>Pet Ekleme</h4>
+                <p>Apple Health profil stili. Fotoğraf, isim, tür, cinsiyet, doğum tarihi, kilo. Form validasyonu. Sade ve sezgisel.</p>
+            </div>
+            <span class="si-tag tag-core">Temel</span>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ TEKNOLOJİ ═══════════ -->
+<div class="section">
+    <h2>🛠 Teknoloji Altyapısı</h2>
+    <p class="section-desc">Tamamen native Apple teknolojileri — sıfır üçüncü parti bağımlılık:</p>
+    <div class="tech-stack">
+        <div class="tech-item">
+            <div class="tech-name">Swift 5.10+</div>
+            <div class="tech-desc">Programlama Dili</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">SwiftUI</div>
+            <div class="tech-desc">UI Framework</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">SwiftData</div>
+            <div class="tech-desc">Yerel Veritabanı</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">StoreKit 2</div>
+            <div class="tech-desc">Ödeme & Abonelik</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">UserNotifications</div>
+            <div class="tech-desc">Bildirimler</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">DeepSeek API</div>
+            <div class="tech-desc">AI (V4 Flash)</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">@Observable</div>
+            <div class="tech-desc">Reaktivite</div>
+        </div>
+        <div class="tech-item">
+            <div class="tech-name">String Catalog</div>
+            <div class="tech-desc">Lokalizasyon</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ SAYILAR ═══════════ -->
+<div class="section">
+    <h2>📊 Pawzy Rakamlarla</h2>
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-num">26</div>
+            <div class="stat-label">Swift Dosyası</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">10</div>
+            <div class="stat-label">Ana Ekran</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">460+</div>
+            <div class="stat-label">Lokalizasyon Anahtarı</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">0</div>
+            <div class="stat-label">3. Parti Bağımlılık</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">4</div>
+            <div class="stat-label">SwiftData Modeli</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Dil (TR · EN)</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ GİZLİLİK ═══════════ -->
+<div class="section">
+    <h2>🔒 Gizlilik — En Kritik Öncelik</h2>
+    <p class="section-desc">Pawzy'nin en önemli prensibi: <strong>verileriniz cihazınızda kalır.</strong></p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">📱</span>
+            <div class="title">Cihaz-Üstü Veritabanı</div>
+            <div class="desc">Tüm pet bilgileri, ilaç kayıtları, dozaj geçmişi SwiftData ile <strong>sadece cihazda</strong> saklanır. Hiçbir sunucuya gönderilmez.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🤖</span>
+            <div class="title">AI Gizliliği</div>
+            <div class="desc">Pawzy AI kullanıldığında, sadece sorularınız anonimleştirilerek DeepSeek API'ye iletilir. Pet adı, fotoğrafı gibi kişisel veriler <strong>gönderilmez.</strong></div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">☁️</span>
+            <div class="title">Opsiyonel Yedekleme</div>
+            <div class="desc">Yedekleme sadece siz isterseniz cihaza JSON olarak alınır. Otomatik bulut yedekleme <strong>yoktur.</strong></div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📋</span>
+            <div class="title">Şeffaf Politika</div>
+            <div class="desc">Gizlilik politikası ve kullanım koşulları uygulama içinde her zaman erişilebilir. Ne toplanır, nereye gider — açıkça yazılı.</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ PREMIUM ═══════════ -->
+<div class="section">
+    <h2>💎 Premium Model</h2>
+    <p class="section-desc">Pawzy temel özellikleriyle ücretsiz. Premium ile tam güç:</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">🆓</span>
+            <div class="title">Ücretsiz Sürüm</div>
+            <div class="desc">1 evcil hayvan · İlaç takibi · Dashboard · İlaç dolabı · Bildirimler · Karanlık mod</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">⭐</span>
+            <div class="title">Premium</div>
+            <div class="desc">Sınırsız pet · Pawzy AI asistan · AI beslenme önerisi · Günlük sağlık ipucu · Detaylı raporlar</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🎁</span>
+            <div class="title">7 Gün Ücretsiz Deneme</div>
+            <div class="desc">Tüm premium özellikleri 7 gün boyunca ücretsiz dene. İstediğin zaman iptal et, ücret yansımaz.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">💳</span>
+            <div class="title">Şeffaf Fiyat</div>
+            <div class="desc">StoreKit 2 ile dinamik fiyatlandırma. TL ise ₺, USD ise $ cinsinden. Trial süresi App Store Connect'ten okunur.</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ TASARIM FELSEFESİ ═══════════ -->
+<div class="section">
+    <h2>🎨 Tasarım Felsefesi</h2>
+    <p class="section-desc">Apple HIG %100 uyumlu, sıcak ve sevimli bir tasarım dili:</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">🎯</span>
+            <div class="title">Apple HIG Uyumu</div>
+            <div class="desc">NavigationStack, TabView — sıfır özel navigasyon. Kemik navigasyon Apple-standart.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🎨</span>
+            <div class="title">Mercan & Sıcak Palet</div>
+            <div class="desc">Ana renk: Coral (#E05A67). Siyah yok — antrasit tonları. Ferah, bol boşluklu layout.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🌓</span>
+            <div class="title">Light + Dark</div>
+            <div class="desc">Her iki modda da kusursuz görünüm. Sistem ayarına otomatik uyum.</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">♿</span>
+            <div class="title">Herkes İçin</div>
+            <div class="desc">Dynamic Type, VoiceOver, Reduce Motion, yüksek kontrast — erişilebilirlik sonradan eklenmez, doğuştan vardır.</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ EKİP ═══════════ -->
+<div class="section">
+    <h2>👥 Ekip</h2>
+    <p class="section-desc">Pawzy'yi hayata geçiren profesyonel ekip:</p>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <span class="icon">👑</span>
+            <div class="title">Mahmut Gazihan Arslan</div>
+            <div class="desc">Ürün Sahibi</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">👩‍🎨</span>
+            <div class="title">Zeynep</div>
+            <div class="desc">UI/UX Tasarım Lideri</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">👨‍💻</span>
+            <div class="title">Baran</div>
+            <div class="desc">Kıdemli iOS Geliştirici</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">👴</span>
+            <div class="title">Arda</div>
+            <div class="desc">Tasarım Danışmanı (45 yıl)</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">👩‍🔬</span>
+            <div class="title">Elif</div>
+            <div class="desc">Onboarding Uzmanı</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">💰</span>
+            <div class="title">Demir</div>
+            <div class="desc">Ödeme Sistemleri Mimarı</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🌍</span>
+            <div class="title">Leyla</div>
+            <div class="desc">Lokalizasyon Şefi</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🧹</span>
+            <div class="title">Kerem</div>
+            <div class="desc">Clean Code Mühendisi</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">📣</span>
+            <div class="title">Ayhan</div>
+            <div class="desc">App Store Pazarlama</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">💡</span>
+            <div class="title">Selin</div>
+            <div class="desc">Ürün Vizyoneri</div>
+        </div>
+        <div class="feature-card">
+            <span class="icon">🙏</span>
+            <div class="title">Emre Erdinç</div>
+            <div class="desc">Emeği Geçenler</div>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════ SON ═══════════ -->
+<div class="section" style="text-align: center;">
+    <h2>🐾 Pawzy ile Tanışın</h2>
+    <p class="section-desc">
+        İster tek bir muhabbet kuşunuz olsun, ister 5 köpekli bir çiftlik — <strong>Pawzy tüm patili dostlarınızın sağlığını tek elden takip eder.</strong>
+    </p>
+    <p style="color: var(--text3); font-size: 14px;">
+        iOS 18+ · SwiftUI · Cihaz-Üstü Gizlilik · DeepSeek AI · Made in Türkiye 🇹🇷
+    </p>
+</div>
+
+</div>
+
+<footer class="footer">
+    <strong>© Pawzy 2026</strong> · Tüm hakları saklıdır.<br>
+    <span style="font-size: 11px;">Emeği Geçenler: Emre Erdinç</span>
+</footer>
+
+</body>
+</html>
